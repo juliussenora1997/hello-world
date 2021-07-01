@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>WEBDEV</title>
-  <link rel="styleshee" href="normalize.css">
-  <link rel="stylesheet"  href="style.css">
+	<meta charset="utf-8">
+	<title>DEV</title>
+	<link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+	<div class="flex">
+		<img class="bg" src="capture.png">
+		<div class="second">
+			<h1 class="text-white text-5xl">Get Started Now</h1>
+			<p>It's free to join and gain full access to</p>
+			<p class="mb-4">thousands of opportunities.</p>
+			<form class="form">
+				<input class="p-2 mb-4" type="text" name="username" placeholder="username" required="">
+				<input class="p-2 mb-4" type="email" name="email" placeholder="email" required="">
+				<input class="p-2 mb-4" type="password" name="password" placeholder="password" required>
+				<input class="p-2 mb-4" type="tel" name="telephone" placeholder="telephone">
+				<select class="p-2 mb-4" name="animals">
+					<option value="tiger">Tiger</option>
+					<option value="monkey">monkey</option>
+					<option value="cat">Cat</option>
+				</select>
+				<div>
+					<input  type="checkbox" id="agree" name="checkbox" required="">
+					<label  for="agree">I agree to the website's <span class="text-yellow-500">Privacy Policy & Terms and Conditions.</span></label>
+					 
+				</div>
+			</form>
+		</div>
+	</div>
 </body>
 </html>

@@ -1,0 +1,19 @@
+.bg{
+	height: 100vh;
+}
+.second{
+	background-color: black;
+	flex-grow: 1;
+	padding-top: 50px;
+	text-align: center;
+}
+p{
+	color: white;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	max-width: 40%;
+	margin: 0 auto;
+	color: white;
+}
